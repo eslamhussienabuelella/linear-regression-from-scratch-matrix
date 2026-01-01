@@ -75,10 +75,10 @@ No optimisation routines or ML abstractions are used—only linear algebra.
 
 ---
 
-### Design Matrix Construction
+
+## Design Matrix Construction
 
 Design matrices are constructed explicitly in `src/design_matrices.py` to reflect the underlying statistical model:
-
 
 - **Simple regression**
 
@@ -116,6 +116,7 @@ The project is structured to mirror professional analytical workflows:
 
 - **`scripts/`**  
   Contains experimental scripts that define specific statistical models, generate figures, and evaluate results.
+
 
 
 
