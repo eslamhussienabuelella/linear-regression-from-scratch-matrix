@@ -85,6 +85,26 @@ Design matrices are constructed explicitly in `src/design_matrices.py` to reflec
              **y=β0​+β1​x+β2​g**
 - **Interaction regression**  
              **y=β0​+β1​x+β2​g+β3​(x⋅g)**
+
+- **Simple regression**
+
+  $$
+  y = \beta_0 + \beta_1 x
+  $$
+
+- **Dummy-variable regression**
+
+  $$
+  y = \beta_0 + \beta_1 x + \beta_2 g
+  $$
+
+- **Interaction regression**
+
+  $$
+  y = \beta_0 + \beta_1 x + \beta_2 g + \beta_3 (x \cdot g)
+  $$
+
+  
 By building the design matrices manually, the effect of:
 - intercept shifts (dummy variables)
 - slope changes (interaction terms)
@@ -102,6 +122,7 @@ The project is structured to mirror professional analytical workflows:
 
 - **`scripts/`**  
   Contains experimental scripts that define specific statistical models, generate figures, and evaluate results.
+
 
 
 
