@@ -42,3 +42,77 @@ linear-regression-from-scratch-matrix/
 ├── requirements.txt
 ├── LICENSE
 └── README.md
+
+
+## 🧠 Core Implementation
+
+This project implements **Ordinary Least Squares (OLS) regression using explicit matrix algebra**, rather than high-level machine learning libraries.
+
+The goal is to make the mathematical foundations of regression fully transparent.
+
+---
+
+### Ordinary Least Squares via Matrix Algebra
+
+Given a design matrix \( X \in \mathbb{R}^{n \times p} \) and a response vector \( y \in \mathbb{R}^{n} \), the OLS estimator is computed using the normal equation:
+
+\[
+\boldsymbol{\beta} = (X^\top X)^{-1} X^\top y
+\]
+
+This closed-form solution is implemented directly in `src/ols.py` using NumPy:
+
+- `fit_ols(X, y)`  
+  Computes regression coefficients using the normal equation.
+
+- `predict(X, beta)`  
+  Generates predictions via matrix multiplication.
+
+- `r2_score(y, y_hat)`  
+  Computes the coefficient of determination.
+
+- `residuals(y, y_hat)`  
+  Returns model residuals for diagnostic analysis.
+
+No optimisation routines or ML abstractions are used—only linear algebra.
+
+---
+
+### Design Matrix Construction
+
+Design matrices are constructed explicitly in `src/design_matrices.py` to reflect the underlying statistical model:
+
+- **Simple regression**  
+  \[
+  y = \beta_0 + \beta_1 x
+  \]
+
+- **Dummy-variable regression**  
+  \[
+  y = \beta_0 + \beta_1 x + \beta_2 g
+  \]
+
+- **Interaction regression**  
+  \[
+  y = \beta_0 + \beta_1 x + \beta_2 g + \beta_3 (x \cdot g)
+  \]
+
+By building the design matrices manually, the effect of:
+- intercept shifts (dummy variables)
+- slope changes (interaction terms)
+
+becomes directly interpretable through the estimated coefficients.
+
+---
+
+### Separation of Concerns
+
+The project is structured to mirror professional analytical workflows:
+
+- **`src/`**  
+  Contains reusable, model-agnostic linear algebra utilities.
+
+- **`scripts/`**  
+  Contains experimental scripts that define specific statistical models, generate figures, and evaluate results.
+
+
