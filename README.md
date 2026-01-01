@@ -54,7 +54,7 @@ The goal is to make the mathematical foundations of regression fully transparent
 
 ### Ordinary Least Squares via Matrix Algebra
 
-Given a design matrix 𝑋 ∈ Rn×p and a response vector 𝑦 ∈ Rn, the OLS estimator is computed using the
+Given a design matrix 𝑋 ∈ Rn×p and a response vector 𝑦 ∈ Rn, the OLS estimator is computed using the  
                          **β=(X⊤X)−1X⊤y**
 
 This closed-form solution is implemented directly in `src/ols.py` using NumPy:
@@ -102,6 +102,7 @@ The project is structured to mirror professional analytical workflows:
 
 - **`scripts/`**  
   Contains experimental scripts that define specific statistical models, generate figures, and evaluate results.
+
 
 
 
