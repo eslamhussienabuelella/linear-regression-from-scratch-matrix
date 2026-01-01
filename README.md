@@ -55,10 +55,11 @@ The goal is to make the mathematical foundations of regression fully transparent
 
 ## Ordinary Least Squares via Matrix Algebra
 
-Given a design matrix `X` of size `(n x p)` and a response vector `y` of length `n`,
-the OLS estimator is computed using:
+Given a design matrix `X (n x p)` and a response vector `y (n x 1)`,
+the OLS estimator is:
 
 `beta = (X^T X)^(-1) X^T y`
+
 
 
 
@@ -112,6 +113,7 @@ The project is structured to mirror professional analytical workflows:
 
 - **`scripts/`**  
   Contains experimental scripts that define specific statistical models, generate figures, and evaluate results.
+
 
 
 
