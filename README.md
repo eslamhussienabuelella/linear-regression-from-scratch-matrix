@@ -79,23 +79,14 @@ No optimisation routines or ML abstractions are used—only linear algebra.
 
 Design matrices are constructed explicitly in `src/design_matrices.py` to reflect the underlying statistical model:
 
-- **Simple regression**
+- **Simple regression**:  
+  `y = β₀ + β₁ x`
 
-  $$
-  y = \beta_0 + \beta_1 x
-  $$
+- **Dummy-variable regression**:  
+  `y = β₀ + β₁ x + β₂ g`
 
-- **Dummy-variable regression**
-
-  $$
-  y = \beta_0 + \beta_1 x + \beta_2 g
-  $$
-
-- **Interaction regression**
-
-  $$
-  y = \beta_0 + \beta_1 x + \beta_2 g + \beta_3 (x \cdot g)
-  $$
+- **Interaction regression**:  
+  `y = β₀ + β₁ x + β₂ g + β₃ (x · g)`
 
   
 By building the design matrices manually, the effect of:
@@ -115,6 +106,7 @@ The project is structured to mirror professional analytical workflows:
 
 - **`scripts/`**  
   Contains experimental scripts that define specific statistical models, generate figures, and evaluate results.
+
 
 
 
