@@ -112,6 +112,10 @@ The project is structured to mirror professional analytical workflows:
   Contains experimental scripts that define specific statistical models, generate figures, and evaluate results.
 
 
+## License and Usage
+This repository is **view-only**. Reuse, modification, redistribution, or
+commercial use is **not permitted**. Academic citation is required if referenced.
+
 
 
 
