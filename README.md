@@ -42,7 +42,7 @@ linear-regression-from-scratch-matrix/
 ├── requirements.txt
 ├── LICENSE
 └── README.md
-
+```
 
 ## 🧠 Core Implementation
 
@@ -114,5 +114,6 @@ The project is structured to mirror professional analytical workflows:
 
 - **`scripts/`**  
   Contains experimental scripts that define specific statistical models, generate figures, and evaluate results.
+
 
 
