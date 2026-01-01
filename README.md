@@ -60,6 +60,7 @@ Given a design matrix `X ∈ R^(n×p)` and a response vector `y ∈ R^n`, the OL
 
 
 
+
 This closed-form solution is implemented directly in `src/ols.py` using NumPy:
 
 - `fit_ols(X, y)`  
@@ -109,6 +110,7 @@ The project is structured to mirror professional analytical workflows:
 
 - **`scripts/`**  
   Contains experimental scripts that define specific statistical models, generate figures, and evaluate results.
+
 
 
 
