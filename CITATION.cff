@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: "Linear Regression from Scratch (Matrix-Based)"
+message: >
+  If you use or reference this work in academic or research outputs,
+  please cite it as follows.
+type: software
+authors:
+  - family-names: Abuelella
+    given-names: Eslam Hussien
+year: 2026
+url: https://github.com/eslamhussienabuelella/linear-regression-from-scratch-matrix
+license: "All rights reserved"
