@@ -54,7 +54,7 @@ The goal is to make the mathematical foundations of regression fully transparent
 
 
 ## Ordinary Least Squares via Matrix Algebra
-Given a design matrix `$X \in \mathbb{R}^{n \times p}$` and a response vector $y \in \mathbb{R}^{n}$, the OLS estimator is computed using:
+Given a design matrix $X \in \mathbb{R}^{n \times p}$ and a response vector $y \in \mathbb{R}^{n}$, the OLS estimator is computed using:
 
 `β = (Xᵀ X)⁻¹ Xᵀ y`
 
@@ -114,6 +114,7 @@ The project is structured to mirror professional analytical workflows:
 ## License and Usage
 This repository is **view-only**. Reuse, modification, redistribution, or
 commercial use is **not permitted**. Academic citation is required if referenced.
+
 
 
 
