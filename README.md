@@ -109,16 +109,4 @@ The project is structured to mirror professional analytical workflows:
 
 
 ## License and Usage
-                    GNU AFFERO GENERAL PUBLIC LICENSE
-                       Version 3, 19 November 2007
-
-
-
-
-
-
-
-
-
-
-
+GNU AFFERO GENERAL PUBLIC LICENSE Version 3, 19 November 2007
