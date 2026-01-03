@@ -106,7 +106,17 @@ The project is structured to mirror professional analytical workflows:
 
 - **`scripts/`**  
   Contains experimental scripts that define specific statistical models, generate figures, and evaluate results.
+  
+---
+  
+## 👤 Author
+**Eslam Abuelella**  
+MSc Data Science – Coventry University  
 
+- GitHub: https://github.com/eslamhussienabuelella  
+- Portfolio: https://eslamhussienabuelella.github.io
 
+---
+  
 ## License and Usage
 GNU AFFERO GENERAL PUBLIC LICENSE Version 3, 19 November 2007
