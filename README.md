@@ -109,8 +109,9 @@ The project is structured to mirror professional analytical workflows:
 
 
 ## License and Usage
-This repository is **view-only**. Reuse, modification, redistribution, or
-commercial use is **not permitted**. Academic citation is required if referenced.
+                    GNU AFFERO GENERAL PUBLIC LICENSE
+                       Version 3, 19 November 2007
+
 
 
 
